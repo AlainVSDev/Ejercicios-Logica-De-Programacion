@@ -4,7 +4,7 @@ while(isNaN(numero)) {
     alert("Solo puedes ingresar numeros");
     numero = Number(prompt("¡Adivina el numero secreto! Ingresa un numero del 1 al 100"));
 }
-let numeroSecreto = Math.floor(Math.random() * 9) + 1;
+let numeroSecreto = Math.floor(Math.random() * 100) + 1;
 let numerosIntroducidos = [];
 
 while (true) {
